@@ -4,7 +4,8 @@ This is a solution for the **Order Summary Component** challenge from [Frontend 
 
 ## 🖥️ Live Preview
 
-[Click here to view the live project](https://your-live-site-link.com)
+[Click here to view the live project](https://telmomanduco.github.io/order-summary-component-main/
+)
 
 ## 📂 Project Overview
 
@@ -25,12 +26,12 @@ A simple and clean order summary card built with HTML and CSS. The layout is ful
 
 ## 📸 Screenshots
 
-_Add your screenshots here if needed._
+![Desktop Screenshot](./images/screenshot.png)
 
 ## ✍️ Author
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Frontend Mentor: [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub: [@TelmoManduco](https://github.com/TelmoManduco)
+- Frontend Mentor: [@TelmoManduco](https://www.frontendmentor.io/profile/TelmoManduco)
 
 ---
 
