@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e8ffff;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image-section img{
+    width: 100%;
+}
+
+.order-section {
+    padding: 1em 2em 2em 2em; /* top, right, bottom, left */
+}
+
+.order-section h1 {
+    color: #1f2f56ff;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.description {
+    color: #7280a7ff;
+    margin-bottom: 1.5em;
+}
+
+.plan-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    padding: 0.8em;
+    background-color: rgba(224, 232, 255, 0.49);
+}
+
+.plan-section > a {
+    color: #3829e0ff;
+    font-weight: 900;
+}
+
+.plan-section > a:hover {
+    text-decoration: none;
+    color: rgba(56, 41, 224, 0.54);
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.annual-plan {
+    color: #1f2f56ff;
+    font-weight: 900;
+}
+
+.price {
+    color: #7280a7ff;
+}
+
+button {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: #3829e0ff;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 2em;
+    box-shadow: 0 10px 16px rgba(56, 41, 224, 0.279);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(56, 41, 224, 0.662);
+}
+
+.cancel-order {
+    text-decoration: none;
+    color: #7280a7ff;
+    font-weight: 900;
+}
+
+.cancel-order:hover {
+    color: black;
+}
